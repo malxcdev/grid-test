@@ -10,7 +10,7 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
 ---
 
 <main class="font-DM bg-[#000]">
-    <div class="grid md:grid-cols-4 md:grid-rows-4 gap-10 h-[900px] p-5">
+    <div class="grid md:grid-cols-4 md:grid-rows-4 gap-10 h-[950px] p-5">
         <!-- #2 Social Media 10x -->
         <section
             class="bg-purple-500 py-8 px-16 rounded-xl md:col-span-2 md:row-span-2 md:order-2 h-64"
@@ -28,7 +28,7 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
         </section>
         <!-- #5 Manage multiple accounts -->
         <section
-            class="bg-white p-6 rounded-xl md:overflow-hidden md:col-span-1 md:row-span-1 md:order-5 md:-mt-40 md:h-64"
+            class="bg-white p-6 rounded-xl md:overflow-hidden md:col-span-1 md:row-span-1 md:order-5 md:-mt-[180px] md:h-64"
         >
             <div>
                 <img
@@ -38,20 +38,20 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
                 />
             </div>
             <h2
-                class="font-semibold text-2xl leading-6 tracking-tight md:text-3xl md:leading-8 md:mt-3"
+                class="font-semibold text-2xl leading-6 tracking-tight md:text-4xl md:leading-8 md:mt-3"
             >
                 Manage multiple accounts and platforms.
             </h2>
         </section>
         <!-- #6 Maintain a consistent posting schedule -->
         <section
-            class="px-6 pt-6 bg-yellow-500 rounded-xl md:col-span-1 md:row-span-1 md:order-6 md:-mt-40 md:h-64 overflow-hidden"
+            class="px-6 pt-6 bg-yellow-500 rounded-xl md:col-span-1 md:row-span-1 md:order-6 md:-mt-[180px] md:h-64 overflow-hidden"
         >
-            <h3 class="font-semibold text-3xl leading-6 tracking-tight pb-6">
+            <h3 class="font-semibold text-3xl leading-6 tracking-tight pb-6 md:text-4xl md:leading-7">
                 Maintain a consistent posting schedule.
             </h3>
             <img
-                class="h-52 object-cover md:w-full"
+                class="h-52 md:h-48"
                 src={IllustrationConsistentSchedule.src}
                 alt=""
             />
@@ -61,19 +61,21 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
             class="px-6 pt-6 bg-purple-100 rounded-xl md:col-span-1 md:row-span-3 md:order-3 md:h-[545px]"
         >
             <h4
-                class="text-center font-semibold text-3xl leading-6 tracking-tight pt-2 pb-5 md:text-left"
+                class="text-center font-semibold text-3xl leading-6 tracking-tight pt-2 pb-5 md:text-left md:text-4xl"
             >
                 Schedule to social media.
             </h4>
             <img src={IllustrationSchedulePosts.src} alt="" srcset="" />
-            <p class="text-center text-2xl leading-6 py-6 font-medium px-8 md:text-left">
+            <p
+                class="text-center text-2xl leading-6 py-6 font-medium px-8 md:text-left"
+            >
                 Optimize post timings to publish content at the perfect time for
                 your audience.
             </p>
         </section>
         <!-- #8 Grow followers with non-stop content -->
         <section
-            class="py-6 px-14 bg-purple-500 flex flex-col justify-center items-center rounded-xl md:col-span-2 md:row-span-1 md:order-8 md:-mt-24"
+            class="py-6 px-14 bg-purple-500 flex flex-col justify-center items-center rounded-xl md:col-span-2 md:row-span-1 md:order-8 md:-mt-[120px]"
         >
             <img class="h-44 mb-7" src={IllustrationGrowFollowers.src} alt="" />
             <h3 class="text-white text-center font-semibold text-3xl leading-6">
@@ -81,11 +83,13 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
             </h3>
         </section>
         <!-- #7 56% -->
-        <section class="bg-white p-6 rounded-xl md:col-span-1 md:row-span-1 md:order-7 md:-mt-24">
-            <h3 class="font-semibold text-5xl md:text-6xl">>56%</h3>
-            <p class="my-2 text-lg font-medium">faster audience growth</p>
+        <section
+            class="bg-white p-6 rounded-xl md:col-span-1 md:row-span-1 md:order-7 md:-mt-[120px] md:flex md:flex-col md:justify-around"
+        >
+            <h3 class="font-semibold text-5xl md:text-7xl">>56%</h3>
+            <p class="my-2 text-lg font-medium md:text-xl">faster audience growth</p>
             <div>
-                <img class="h-16" src={IllustrationAudienceGrowth.src} alt="" />
+                <img class="h-16 md:h-20" src={IllustrationAudienceGrowth.src} alt="" />
             </div>
         </section>
         <!--
@@ -98,7 +102,8 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
                 class="font-semibold text-4xl leading-7 tracking-tight mb-4 md:text-5xl"
             >
                 Create and schedule content <span class="text-purple-500 italic"
-                    >quicker.</span>
+                    >quicker.</span
+                >
             </h3>
             <div>
                 <img class="h-20" src={IllustrationCreatePost.src} alt="" />
@@ -109,16 +114,18 @@ import IllustrationAiContent from "../assets/images/illustration-ai-content.webp
             class="md:col-span-1 md:row-span-2 bg-yellow-500 px-6 py-8 rounded-xl md:order-4"
         >
             <h3
-                class="font-semibold text-4xl leading-8 tracking-tight mb-4 md:text-4xl md:leading-8 md:pb-6"
+                class="font-semibold text-4xl leading-8 tracking-tight mb-4 md:text-5xl md:leading-10 md:pb-6"
             >
                 Write your content using AI.
             </h3>
-            <img
-                class="h-56 md:h-40"
-                src={IllustrationAiContent.src}
-                alt=""
-                srcset=""
-            />
+            <div class="md:flex justify-center">
+                <img
+                    class="h-56"
+                    src={IllustrationAiContent.src}
+                    alt=""
+                    srcset=""
+                />
+            </div>
         </section>
     </div>
 </main>
